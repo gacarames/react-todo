@@ -8,7 +8,7 @@ deploy:
   provider: s3
   access_key_id: "$BRANDEDTEST_ACCES_KEY"
   secret_access_key: "$BRANDEDTEST_PASS_KEY"
-  bucket: "s3://testbrandedcontent"
+  bucket: "testbrandedcontent"
   acl: public_read
   skip_cleanup: true
   local_dir: build
